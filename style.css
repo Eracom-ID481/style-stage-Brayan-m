@@ -58,13 +58,29 @@ select {
 }
 
 /* Fin du CSS Reset */
-/*    https://github.com/Eracom-ID481/style-stage-Brayan-m */
+    /*https://github.com/Eracom-ID481/style-stage-Brayan-m */
 
 h1 {
   font-family: "Archivo Black", sans-serif;
 }
 
-h1 {
-  color: #003f6c;
-  font-size: 80px;
+/* variable */
+
+html {
+    --primary: white;
+}
+
+
+
+
+body {
+    background-color:rgba(39, 47, 55);
+}
+
+
+
+
+h1,h2 {
+ color: var(--primary)
+
 }
