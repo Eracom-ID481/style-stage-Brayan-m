@@ -58,33 +58,51 @@ select {
 }
 
 /* Fin du CSS Reset */
-    /*https://github.com/Eracom-ID481/style-stage-Brayan-m */
+/*https://github.com/Eracom-ID481/style-stage-Brayan-m */
 
 h1 {
   font-family: "Archivo Black", sans-serif;
+  font-size: 90px;
 }
 
 /* variable */
 
 html {
-    --primary: white;
+  --primary: white;
 }
 
-
-
+nav ul a {
+  display: inline-block;
+  list-style-type: none;
+}
 
 body {
-    background-color:rgba(39, 47, 55);
+  background-color: rgba(222, 226, 230);
 }
 
-
-
-h1,h2 {
- color: var(--primary)
-
+.skip-link {
+  display: none;
 }
 
-header,h2 {
-    text-align: center;
-    font-size: 40px;
+h1,
+h2 {
+  color: var(--primary);
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+}
+
+header .container {
+  background-color: rgba(39, 47, 55);
+}
+
+/* img étoile */
+svg {
+  width: 80px;
+}
+
+p {
+  font-family: "Lora", serif;
 }
